@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>CopperBrowser V1 — Download</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Download CopperBrowser V1 — a lightweight PyQt6 web browser.">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container">
+      <h1 class="brand">CopperBrowser</h1>
+      <nav class="nav">
+        <a href="#download">Download</a>
+        <a href="#features">Features</a>
+        <a href="#release-notes">Release notes</a>
+        <a href="https://github.com/user1763013/CopperBrowser" target="_blank" rel="noopener">Source</a>
+      </nav>
+    </div>
+  </header>
+
+  <section class="hero">
+    <div class="container">
+      <h2>Fast, minimal, and extendable</h2>
+      <p>A lightweight custom web browser built with Python, PyQt6, and QtWebEngine.</p>
+      <div class="cta">
+        <!-- Fallback link works even if JS fails -->
+        <a id="download-btn" class="button" href="https://github.com/user1763013/CopperBrowser/releases/latest" target="_blank" rel="noopener">
+          ⬇ Download CopperBrowser V1
+        </a>
+        <p id="asset-label" class="asset-label">Fetching latest executable…</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="features" class="section">
+    <div class="container">
+      <h3>Features</h3>
+      <ul class="features">
+        <li><strong>Tabs:</strong> Multiple independent browsing sessions.</li>
+        <li><strong>Toolbar:</strong> Back, forward, reload, home.</li>
+        <li><strong>Bookmarks:</strong> Stored in %APPDATA%\CopperBrowserV1\bookmarks.json.</li>
+        <li><strong>History:</strong> Stored in %APPDATA%\CopperBrowserV1\history.json.</li>
+        <li><strong>User agent:</strong> Toggle Copper vs Chrome.</li>
+        <li><strong>Search engine:</strong> DuckDuckGo, Google, and more.</li>
+        <li><strong>Config:</strong> %APPDATA%\CopperBrowserV1\config.json.</li>
+      </ul>
+    </div>
+  </section>
+
+  <section id="release-notes" class="section alt">
+    <div class="container">
+      <h3>Latest release notes</h3>
+      <div id="notes" class="notes">
+        <p>Loading release details…</p>
+      </div>
+      <p class="small">
+        View all releases on
+        <a href="https://github.com/user1763013/CopperBrowser/releases" target="_blank" rel="noopener">GitHub Releases</a>.
+      </p>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container">
+      <h3>Screenshots</h3>
+      <div class="gallery">
+        <img src="images/screenshot-1.png" alt="CopperBrowser screenshot 1">
+        <img src="images/screenshot-2.png" alt="CopperBrowser screenshot 2">
+      </div>
+      <p class="small">Drop PNGs into <code>images/</code> to populate this gallery.</p>
+    </div>
+  </section>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>
+        © CopperBrowser. Licensed under MIT. Source on
+        <a href="https://github.com/user1763013/CopperBrowser" target="_blank" rel="noopener">GitHub</a>.
+      </p>
+    </div>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>
